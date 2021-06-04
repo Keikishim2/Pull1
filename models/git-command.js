@@ -22,6 +22,7 @@ class GitCommand {
             }else if(!modified_files || !this.staging.length > 0){
                 return 'You have 0 change/s.\n';
         }
+        // hello pull!!
     }
 
     //Command: git add <filename/file directory/wildcard> 
